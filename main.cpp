@@ -12,6 +12,12 @@ int main() {
     int countMerge = 0;
 
     try {
+        /* Test Cases : Each Vector needs to be sorted with Exchange Sort, Bubble Sort and Merge Sort.
+        Then, it will print the count of comparisons between the three methods. Finally, a for loop
+        will use Sequential and Binary Search to find a specific number (if it doesn't exist, then a
+        -1 int will be return). Aditionally, the loop will print the index from the element in the
+        container and the count of comparisons between the two methods. */
+        
         std::vector<std::vector<int>> vecMain = parseIntoVec("in1.txt");
         /* std::vector<std::vector<int>> vecMain = parseIntoVec("in2.txt"); */
         /* std::vector<std::vector<int>> vecMain = parseIntoVec("in3.txt"); */
